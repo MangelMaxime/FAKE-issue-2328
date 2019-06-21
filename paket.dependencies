@@ -6,8 +6,10 @@ storage:none
 group netcorebuild
     source https://www.nuget.org/api/v2
     framework: netstandard2.0
-
+    storage:none
+    
     clitool dotnet-fake
+    nuget System.Reactive.Compatibility
     nuget NETStandard.Library.NETFramework
     nuget Fake.DotNet.Cli
     nuget Fake.Core.Target
