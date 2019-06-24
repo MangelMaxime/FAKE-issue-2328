@@ -14,7 +14,7 @@ open Fake.Api
 
 let root = __SOURCE_DIRECTORY__
 
-let gitOwner = "matthid"
+let gitOwner = "MangelMaxime"
 let repoName = "FAKE-issue-2328"
 
 ////////////////////////////////////
